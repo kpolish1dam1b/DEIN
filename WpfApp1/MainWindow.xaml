@@ -7,6 +7,10 @@
         mc:Ignorable="d"
         Title="Diseño de controles" Height="450" Width="800">
     <Grid>
+        <TextBox VerticalAlignment="Top" Margin="20">Escribe aqui</TextBox>
+        
+        <Button Height="20" Width="Auto"  Margin="20" HorizontalAlignment="Left" 
+                Background="Pink" BorderBrush="HotPink" BorderThickness="1" Click="OnClick1" ClickMode="Press">Botón 1</Button>
         
     </Grid>
 </Window>

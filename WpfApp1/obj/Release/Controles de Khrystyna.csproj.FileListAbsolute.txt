@@ -1,0 +1,5 @@
+D:\DEIN\DEIN\DEIN\WpfApp1\obj\Release\Controles de Khrystyna.csproj.AssemblyReference.cache
+D:\DEIN\DEIN\DEIN\WpfApp1\obj\Release\App.g.cs
+D:\DEIN\DEIN\DEIN\WpfApp1\obj\Release\WpfApp1_MarkupCompile.cache
+D:\DEIN\DEIN\DEIN\WpfApp1\obj\Release\MainWindow.g.cs
+D:\DEIN\DEIN\DEIN\WpfApp1\obj\Release\WpfApp1_MarkupCompile.lref

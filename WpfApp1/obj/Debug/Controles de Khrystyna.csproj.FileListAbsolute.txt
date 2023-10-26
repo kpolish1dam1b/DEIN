@@ -1,0 +1,15 @@
+D:\DEIN\DEIN\DEIN\WpfApp1\obj\Debug\Controles de Khrystyna.csproj.AssemblyReference.cache
+D:\DEIN\DEIN\DEIN\WpfApp1\obj\Debug\App.g.cs
+D:\DEIN\DEIN\DEIN\WpfApp1\obj\Debug\WpfApp1_MarkupCompile.cache
+D:\DEIN\DEIN\DEIN\WpfApp1\bin\Debug\WpfApp1.exe.config
+D:\DEIN\DEIN\DEIN\WpfApp1\bin\Debug\WpfApp1.exe
+D:\DEIN\DEIN\DEIN\WpfApp1\bin\Debug\WpfApp1.pdb
+D:\DEIN\DEIN\DEIN\WpfApp1\obj\Debug\MainWindow.g.cs
+D:\DEIN\DEIN\DEIN\WpfApp1\obj\Debug\WpfApp1_MarkupCompile.lref
+D:\DEIN\DEIN\DEIN\WpfApp1\obj\Debug\MainWindow.baml
+D:\DEIN\DEIN\DEIN\WpfApp1\obj\Debug\WpfApp1.g.resources
+D:\DEIN\DEIN\DEIN\WpfApp1\obj\Debug\WpfApp1.Properties.Resources.resources
+D:\DEIN\DEIN\DEIN\WpfApp1\obj\Debug\Controles de Khrystyna.csproj.GenerateResource.cache
+D:\DEIN\DEIN\DEIN\WpfApp1\obj\Debug\Controles de Khrystyna.csproj.CoreCompileInputs.cache
+D:\DEIN\DEIN\DEIN\WpfApp1\obj\Debug\WpfApp1.exe
+D:\DEIN\DEIN\DEIN\WpfApp1\obj\Debug\WpfApp1.pdb
