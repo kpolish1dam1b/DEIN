@@ -14,6 +14,7 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 using System.Data.SqlClient;
+using System.Data;
 
 namespace SQL_Server
 {
@@ -22,15 +23,35 @@ namespace SQL_Server
     /// </summary>
     public partial class MainWindow : Window
     {
-        SqlConnection connection;
+        SqlConnection miConexionSql;
 
         public MainWindow()
         {
             InitializeComponent();
 
             string miConexion = ConfigurationManager.ConnectionStrings["SQL_Server.Properties.Settings.ConnectionString"].ConnectionString;
-            connection = new SqlConnection(miConexion);
+            miConexionSql = new SqlConnection(miConexion);
 
+            MuestraUsuarios();
+
+        }
+
+        public void MuestraUsuarios()
+        {
+            string consulta = "SELECT * FROM Usuarios WHERE [nombre] = 'Juan'";
+
+            SqlDataAdapter miAdaptadorSql = new SqlDataAdapter(consulta, miConexionSql);
+
+            using (miAdaptadorSql)
+            {
+                DataTable tablaUsuarios = new DataTable();
+
+                miAdaptadorSql.Fill(tablaUsuarios);
+
+                
+         
+                listaUsuarios.ItemsSource = tablaUsuarios.DefaultView;
+            }
         }
     }
 }
