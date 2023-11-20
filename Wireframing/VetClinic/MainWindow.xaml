@@ -9,8 +9,9 @@
 
     <Window.Resources>
         <Style x:Key="MiBotonEstilo" TargetType="Button">
-            <Setter Property="Background" Value="LightBlue"/>
-            <Setter Property="Foreground" Value="Black"/>
+            <Setter Property="Background" Value="#8AC7DC"/>
+            <Setter Property="Foreground" Value="#003459"/>
+            <Setter Property="FontCo"
             <Setter Property="Width" Value="80"/>
             <Setter Property="Height" Value="40"/>
             <Setter Property="Margin" Value="20"/>
