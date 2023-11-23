@@ -14,38 +14,66 @@
             <Setter Property="Width" Value="80"/>
             <Setter Property="Height" Value="40"/>
             <Setter Property="Margin" Value="20"/>
+        </Style>
 
+        <Style x:Key="BotonMenu" TargetType="Button">
+            <Setter Property="Background" Value="White"/>
+            <Setter Property="BorderThickness" Value="0"/>
+            <Setter Property="Width" Value="150"/>
+            <Setter Property="Height" Value="50"/>
         </Style>
     </Window.Resources>
-
     <Grid>
-        
-        <Grid.ColumnDefinitions>
-            <ColumnDefinition/>
-            <ColumnDefinition/>
-        </Grid.ColumnDefinitions>
+        <ScrollViewer VerticalScrollBarVisibility="Auto">
+                <Grid>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="*"/>
+                        <ColumnDefinition Width="*"/>
+                    </Grid.ColumnDefinitions>
 
-        <Grid.RowDefinitions>
-            <RowDefinition Height="40"/>
-            <RowDefinition Height="auto"/>
-        </Grid.RowDefinitions>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="40"/>
+                        <RowDefinition Height="auto"/>
+                    </Grid.RowDefinitions>
 
-        <Grid Background="#003459" Height="50" Grid.ColumnSpan="2">
-            <!-- Icono del menú desplegable a la izquierda -->
-            <Button Content="☰" FontSize="18" VerticalAlignment="Center" HorizontalAlignment="Left" Margin="10" Foreground="White" Background="#003459" BorderThickness="0"/>
+                    <!--Barra de navegación-->
+                    <Grid Grid.Row="0" Background="#003459" Height="50" Grid.ColumnSpan="2">
+                        <!-- Icono del menú desplegable a la izquierda -->
+                    <Button Click="MenuButton_Click" Content="☰" FontSize="18" VerticalAlignment="Center" HorizontalAlignment="Left" Margin="10, 0, 0, 10" Foreground="White" Background="#003459" BorderThickness="0"/>
 
-            <!-- Nombre de la aplicación a la derecha -->
-            <TextBlock Text="Vet Clinic" Foreground="White" VerticalAlignment="Center" HorizontalAlignment="Right" Margin="10"/>
-        </Grid>
+                        <!-- Nombre de la aplicación a la derecha -->
+                        <TextBlock Text="Vet Clinic" FontSize="18" Foreground="White" VerticalAlignment="Center" HorizontalAlignment="Right" Margin="0, 0, 20, 10"/>
+                    </Grid>
 
-        <StackPanel Grid.Column="0" Grid.Row="1" Orientation="Vertical">
-            <Image/>
-        </StackPanel>
+                    <StackPanel Grid.Column="0" Grid.Row="1" Orientation="Vertical" Height="auto">
+                        <Image Source="fotos/gato.jpg" Margin="0, 0, 5, 5"/>
+                        <Image Source="fotos/perro.jpg" Margin="0, 0, 5, 5"/>
+                        <Image Source="fotos/gato.jpg" Margin="0, 0, 5, 5"/>
+                    </StackPanel>
 
-        <StackPanel Grid.Column="1" Grid.Row="1" Orientation="Vertical">
-            <Image/>
-        </StackPanel>
+                    <StackPanel Grid.Column="1" Grid.Row="1" Orientation="Vertical" Height="auto">
+                        <Image Source="fotos/gato2.jpg" Margin="0, 0, 5, 5"/>
+                        <Image Source="fotos/perro.jpg" Margin="0, 0, 5, 5"/>
 
-        <!-- <Button Content="Mi Botón" Style="{StaticResource MiBotonEstilo}"/> -->
+                    </StackPanel>
+                </Grid>
+            </ScrollViewer>
+
+        <Popup x:Name="menuPopup" Placement="Right" HorizontalOffset="150" VerticalOffset="40" IsOpen="False">
+            <Grid Background="White" Width="150" Height="380">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                </Grid.RowDefinitions>
+
+                <!-- Aquí colocas los elementos del menú -->
+                <Button Style="{StaticResource BotonMenu}" Content="Opción 1" HorizontalAlignment="Left" Grid.Row="0" Click="MenuItem_Click"/>
+                <Button Style="{StaticResource BotonMenu}" Content="Opción 2" HorizontalAlignment="Left" Grid.Row="1" Click="MenuItem_Click"/>
+                <Button Style="{StaticResource BotonMenu}" Content="Opción 3" HorizontalAlignment="Left" Grid.Row="2" Click="MenuItem_Click"/>
+            </Grid>
+        </Popup>
+
+
     </Grid>
 </Window>

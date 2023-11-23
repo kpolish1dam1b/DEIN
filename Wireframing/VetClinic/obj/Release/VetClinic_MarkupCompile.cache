@@ -4,15 +4,15 @@
 winexe
 C#
 .cs
-D:\DEIN\DEIN\DEIN\Wireframing\VetClinic\obj\Debug\
+D:\DEIN\DEIN\DEIN\Wireframing\VetClinic\obj\Release\
 VetClinic
 none
 false
-DEBUG;TRACE
+TRACE
 D:\DEIN\DEIN\DEIN\Wireframing\VetClinic\App.xaml
 2462529049
 
-72108228723
+6-1344379206
 13-1505183044
 MainWindow.xaml;Window1.xaml;
 

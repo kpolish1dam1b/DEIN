@@ -101,5 +101,20 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup>
+    <Resource Include="fotos\donar.jpg" />
+    <Resource Include="fotos\gato.jpg" />
+    <Resource Include="fotos\inst.jpg" />
+    <Resource Include="fotos\instalaciones_vet02.jpg" />
+    <Resource Include="fotos\maps.jpg" />
+    <Resource Include="fotos\mascotas.jpg" />
+    <Resource Include="fotos\pequenos-animales-03.jpg" />
+    <Resource Include="fotos\perro.jpg" />
+    <Resource Include="fotos\quirofano-equipado-esvet-veterinaria.jpg" />
+    <Resource Include="fotos\veterinary-clinic-logo-vector.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="fotos\gato2.jpg" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

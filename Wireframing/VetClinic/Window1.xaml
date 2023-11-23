@@ -7,6 +7,34 @@
         mc:Ignorable="d"
         Title="Window1" Height="450" Width="800">
     <Grid>
-        
+
+        <ScrollViewer VerticalScrollBarVisibility="Auto">
+            <Grid>
+               
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="40"/>
+                    <RowDefinition Height="auto"/>
+                </Grid.RowDefinitions>
+
+                <!--Barra de navegación-->
+                <Grid Grid.Row="0" Background="#003459" Height="50">
+                    <!-- Icono del menú desplegable a la izquierda -->
+                    <Button Content="☰" FontSize="18" VerticalAlignment="Center" HorizontalAlignment="Left" Margin="10, 0, 0, 10" Foreground="White" Background="#003459" BorderThickness="0"/>
+
+                    <!-- Nombre de la aplicación a la derecha -->
+                    <TextBlock Text="Vet Clinic" FontSize="18" Foreground="White" VerticalAlignment="Center" HorizontalAlignment="Right" Margin="0, 0, 20, 10"/>
+                </Grid>
+
+                <StackPanel Grid.Row="1" Orientation="Vertical" Height="auto">
+                    <Image Source="fotos/instalaciones_vet02.jpg" Margin="0, 0, 5, 5"/>
+                    <Image Source="fotos/inst.jpg" Margin="0, 0, 5, 5"/>
+                    <Image Source="fotos/quirofano-equipado-esvet-veterinaria.jpg" Margin="0, 0, 5, 5"/>
+                </StackPanel>
+
+
+                <!-- <Button Content="Mi Botón" Style="{StaticResource MiBotonEstilo}"/> -->
+            </Grid>
+
+        </ScrollViewer>
     </Grid>
 </Window>

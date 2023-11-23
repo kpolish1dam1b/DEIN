@@ -1,4 +1,3 @@
-D:\DEIN\DEIN\DEIN\Wireframing\VetClinic\obj\Debug\VetClinic.csproj.AssemblyReference.cache
 D:\DEIN\DEIN\DEIN\Wireframing\VetClinic\obj\Debug\MainWindow.g.cs
 D:\DEIN\DEIN\DEIN\Wireframing\VetClinic\obj\Debug\Window1.g.cs
 D:\DEIN\DEIN\DEIN\Wireframing\VetClinic\obj\Debug\App.g.cs
