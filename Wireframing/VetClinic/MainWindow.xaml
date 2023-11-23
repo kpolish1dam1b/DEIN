@@ -11,7 +11,6 @@
         <Style x:Key="MiBotonEstilo" TargetType="Button">
             <Setter Property="Background" Value="#8AC7DC"/>
             <Setter Property="Foreground" Value="#003459"/>
-            <Setter Property="FontCo"
             <Setter Property="Width" Value="80"/>
             <Setter Property="Height" Value="40"/>
             <Setter Property="Margin" Value="20"/>
@@ -20,6 +19,33 @@
     </Window.Resources>
 
     <Grid>
-        <Button Content="Mi Botón" Style="{StaticResource MiBotonEstilo}"/>
+        
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+
+        <Grid.RowDefinitions>
+            <RowDefinition Height="40"/>
+            <RowDefinition Height="auto"/>
+        </Grid.RowDefinitions>
+
+        <Grid Background="#003459" Height="50" Grid.ColumnSpan="2">
+            <!-- Icono del menú desplegable a la izquierda -->
+            <Button Content="☰" FontSize="18" VerticalAlignment="Center" HorizontalAlignment="Left" Margin="10" Foreground="White" Background="#003459" BorderThickness="0"/>
+
+            <!-- Nombre de la aplicación a la derecha -->
+            <TextBlock Text="Vet Clinic" Foreground="White" VerticalAlignment="Center" HorizontalAlignment="Right" Margin="10"/>
+        </Grid>
+
+        <StackPanel Grid.Column="0" Grid.Row="1" Orientation="Vertical">
+            <Image/>
+        </StackPanel>
+
+        <StackPanel Grid.Column="1" Grid.Row="1" Orientation="Vertical">
+            <Image/>
+        </StackPanel>
+
+        <!-- <Button Content="Mi Botón" Style="{StaticResource MiBotonEstilo}"/> -->
     </Grid>
 </Window>
