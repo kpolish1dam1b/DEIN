@@ -22,3 +22,6 @@ D:\DEIN\DEIN\DEIN\Wireframing\VetClinic\obj\Debug\Window3.g.cs
 D:\DEIN\DEIN\DEIN\Wireframing\VetClinic\obj\Debug\Window4.g.cs
 D:\DEIN\DEIN\DEIN\Wireframing\VetClinic\obj\Debug\Window3.baml
 D:\DEIN\DEIN\DEIN\Wireframing\VetClinic\obj\Debug\Window4.baml
+D:\DEIN\DEIN\DEIN\Wireframing\VetClinic\obj\Debug\VetClinic.csproj.AssemblyReference.cache
+D:\DEIN\DEIN\DEIN\Wireframing\VetClinic\obj\Debug\Cita.g.cs
+D:\DEIN\DEIN\DEIN\Wireframing\VetClinic\obj\Debug\Cita.baml

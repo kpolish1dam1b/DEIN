@@ -66,6 +66,7 @@
                 <Button Style="{StaticResource BotonMenu}" Content="Instalaciones" HorizontalAlignment="Left" Grid.Row="1" Click="MenuItem_Click"/>
                 <Button Style="{StaticResource BotonMenu}" Content="Log In" HorizontalAlignment="Left" Grid.Row="2" Click="MenuItem_Click"/>
                 <Button Style="{StaticResource BotonMenu}" Content="Adopción" HorizontalAlignment="Left" Grid.Row="3" Click="MenuItem_Click"/>
+                <Button Style="{StaticResource BotonMenu}" Content="Cita" HorizontalAlignment="Left" Grid.Row="3" Click="MenuItem_Click"/>
             </Grid>
         </Popup>
 

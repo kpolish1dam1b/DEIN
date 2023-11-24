@@ -55,6 +55,10 @@ namespace VetClinic
             {
                 nuevaVentana = new Window3();
             }
+            else if (buttonText == "Cita")
+            {
+                nuevaVentana = new Cita();
+            }
 
             // Cerrar la ventana actual
             Close();
