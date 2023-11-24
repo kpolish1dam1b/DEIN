@@ -73,7 +73,7 @@
                 <CheckBox Style="{StaticResource checkBox}" Content="Veterinario" Grid.Row="1" Grid.Column="1" VerticalAlignment="Center"/>
                 <CheckBox Style="{StaticResource checkBox}" Content="Ayudante" Grid.Row="1" Grid.Column="2" VerticalAlignment="Center"/>
 
-                <CheckBox Style="{StaticResource checkBox}" Content="REcepcionista" Grid.Row="2" Grid.Column="1" VerticalAlignment="Center"/>
+                <CheckBox Style="{StaticResource checkBox}" Content="Recepcionista" Grid.Row="2" Grid.Column="1" VerticalAlignment="Center"/>
                 <CheckBox Style="{StaticResource checkBox}" Content="Otro" Grid.Row="2" Grid.Column="2" VerticalAlignment="Center"/>
 
                 <!-- Elegir motivo cita -->
@@ -91,7 +91,7 @@
             </Grid>
         </Border>
 
-        <Popup x:Name="menuPopup" Placement="Left" HorizontalOffset="150" VerticalOffset="40" IsOpen="False">
+        <Popup x:Name="menuPopup" Placement="Relative" HorizontalOffset="150" VerticalOffset="40" IsOpen="False">
             <Grid Background="White" Width="150" Height="380">
                 <Grid.RowDefinitions>
                     <RowDefinition Height="Auto"/>

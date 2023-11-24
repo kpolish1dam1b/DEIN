@@ -1,9 +1,7 @@
 D:\DEIN\DEIN\DEIN\Wireframing\VetClinic\obj\Debug\MainWindow.g.cs
-D:\DEIN\DEIN\DEIN\Wireframing\VetClinic\obj\Debug\Window1.g.cs
 D:\DEIN\DEIN\DEIN\Wireframing\VetClinic\obj\Debug\App.g.cs
 D:\DEIN\DEIN\DEIN\Wireframing\VetClinic\obj\Debug\VetClinic_MarkupCompile.cache
 D:\DEIN\DEIN\DEIN\Wireframing\VetClinic\obj\Debug\VetClinic_MarkupCompile.lref
-D:\DEIN\DEIN\DEIN\Wireframing\VetClinic\obj\Debug\Window1.baml
 D:\DEIN\DEIN\DEIN\Wireframing\VetClinic\obj\Debug\VetClinic.exe
 D:\DEIN\DEIN\DEIN\Wireframing\VetClinic\obj\Debug\VetClinic.pdb
 D:\DEIN\DEIN\DEIN\Wireframing\VetClinic\bin\Debug\VetClinic.exe.config
@@ -22,6 +20,9 @@ D:\DEIN\DEIN\DEIN\Wireframing\VetClinic\obj\Debug\Window3.g.cs
 D:\DEIN\DEIN\DEIN\Wireframing\VetClinic\obj\Debug\Window4.g.cs
 D:\DEIN\DEIN\DEIN\Wireframing\VetClinic\obj\Debug\Window3.baml
 D:\DEIN\DEIN\DEIN\Wireframing\VetClinic\obj\Debug\Window4.baml
-D:\DEIN\DEIN\DEIN\Wireframing\VetClinic\obj\Debug\VetClinic.csproj.AssemblyReference.cache
 D:\DEIN\DEIN\DEIN\Wireframing\VetClinic\obj\Debug\Cita.g.cs
 D:\DEIN\DEIN\DEIN\Wireframing\VetClinic\obj\Debug\Cita.baml
+D:\DEIN\DEIN\DEIN\Wireframing\VetClinic\obj\Debug\Trabaja.g.cs
+D:\DEIN\DEIN\DEIN\Wireframing\VetClinic\obj\Debug\Trabaja.baml
+D:\DEIN\DEIN\DEIN\Wireframing\VetClinic\obj\Debug\Instalaciones.g.cs
+D:\DEIN\DEIN\DEIN\Wireframing\VetClinic\obj\Debug\Instalaciones.baml

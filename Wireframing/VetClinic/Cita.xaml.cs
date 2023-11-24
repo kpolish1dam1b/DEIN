@@ -44,15 +44,15 @@ namespace VetClinic
             }
             else if (buttonText == "Instalaciones")
             {
-                nuevaVentana = new Window1();
+                nuevaVentana = new Instalaciones();
             }
             else if (buttonText == "Log In")
             {
-                nuevaVentana = new Window2();
+                nuevaVentana = new LogIn();
             }
             else if (buttonText == "Adopción")
             {
-                nuevaVentana = new Window3();
+                nuevaVentana = new Adopcion();
             }
             else if (buttonText == "Cita")
             {

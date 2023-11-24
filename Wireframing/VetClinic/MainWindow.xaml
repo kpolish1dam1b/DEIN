@@ -51,7 +51,7 @@
                 </Grid>
             </ScrollViewer>
 
-        <Popup x:Name="menuPopup" Placement="Left" HorizontalOffset="150" VerticalOffset="40" IsOpen="False">
+        <Popup x:Name="menuPopup" Placement="Relative" HorizontalOffset="150" VerticalOffset="40" IsOpen="False">
             <Grid Background="White" Width="150" Height="380">
                 <Grid.RowDefinitions>
                     <RowDefinition Height="Auto"/>
