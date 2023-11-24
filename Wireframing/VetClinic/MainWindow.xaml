@@ -8,15 +8,7 @@
         Title="MainWindow" Height="450" Width="800">
 
     <Window.Resources>
-        <Style x:Key="MiBotonEstilo" TargetType="Button">
-            <Setter Property="Background" Value="#8AC7DC"/>
-            <Setter Property="Foreground" Value="#003459"/>
-            <Setter Property="Width" Value="80"/>
-            <Setter Property="Height" Value="40"/>
-            <Setter Property="Margin" Value="20"/>
-        </Style>
-
-        <Style x:Key="BotonMenu" TargetType="Button">
+       <Style x:Key="BotonMenu" TargetType="Button">
             <Setter Property="Background" Value="White"/>
             <Setter Property="BorderThickness" Value="0"/>
             <Setter Property="Width" Value="150"/>
@@ -59,18 +51,21 @@
                 </Grid>
             </ScrollViewer>
 
-        <Popup x:Name="menuPopup" Placement="Right" HorizontalOffset="150" VerticalOffset="40" IsOpen="False">
+        <Popup x:Name="menuPopup" Placement="Left" HorizontalOffset="150" VerticalOffset="40" IsOpen="False">
             <Grid Background="White" Width="150" Height="380">
                 <Grid.RowDefinitions>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
                     <RowDefinition Height="Auto"/>
                     <RowDefinition Height="Auto"/>
                     <RowDefinition Height="Auto"/>
                 </Grid.RowDefinitions>
 
                 <!-- Aquí colocas los elementos del menú -->
-                <Button Style="{StaticResource BotonMenu}" Content="Opción 1" HorizontalAlignment="Left" Grid.Row="0" Click="MenuItem_Click"/>
-                <Button Style="{StaticResource BotonMenu}" Content="Opción 2" HorizontalAlignment="Left" Grid.Row="1" Click="MenuItem_Click"/>
-                <Button Style="{StaticResource BotonMenu}" Content="Opción 3" HorizontalAlignment="Left" Grid.Row="2" Click="MenuItem_Click"/>
+                <Button Style="{StaticResource BotonMenu}" Content="Home" HorizontalAlignment="Left" Grid.Row="0" Click="MenuItem_Click"/>
+                <Button Style="{StaticResource BotonMenu}" Content="Instalaciones" HorizontalAlignment="Left" Grid.Row="1" Click="MenuItem_Click"/>
+                <Button Style="{StaticResource BotonMenu}" Content="Log In" HorizontalAlignment="Left" Grid.Row="2" Click="MenuItem_Click"/>
+                <Button Style="{StaticResource BotonMenu}" Content="Adopción" HorizontalAlignment="Left" Grid.Row="3" Click="MenuItem_Click"/>
             </Grid>
         </Popup>
 

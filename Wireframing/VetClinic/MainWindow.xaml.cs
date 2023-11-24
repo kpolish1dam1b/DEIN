@@ -39,18 +39,22 @@ namespace VetClinic
 
             Window nuevaVentana = null;
 
-            if (buttonText == "Opción 1")
+            if (buttonText == "Home")
+            {
+                nuevaVentana = new MainWindow();
+            }
+            else if (buttonText == "Instalaciones")
             {
                 nuevaVentana = new Window1();
             }
-            /**else if (buttonText == "Ventana 2")
+            else if (buttonText == "Log In")
             {
-                nuevaVentana = new Ventana2();
+                nuevaVentana = new Window2();
             }
-            else if (buttonText == "Ventana 3")
+            else if (buttonText == "Adopción")
             {
-                nuevaVentana = new Ventana3();
-            }*/
+                nuevaVentana = new Window3();
+            }
 
             // Cerrar la ventana actual
             Close();

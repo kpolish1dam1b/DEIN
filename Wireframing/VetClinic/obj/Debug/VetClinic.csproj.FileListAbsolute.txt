@@ -14,3 +14,11 @@ D:\DEIN\DEIN\DEIN\Wireframing\VetClinic\obj\Debug\VetClinic.g.resources
 D:\DEIN\DEIN\DEIN\Wireframing\VetClinic\obj\Debug\VetClinic.Properties.Resources.resources
 D:\DEIN\DEIN\DEIN\Wireframing\VetClinic\obj\Debug\VetClinic.csproj.GenerateResource.cache
 D:\DEIN\DEIN\DEIN\Wireframing\VetClinic\obj\Debug\VetClinic.csproj.CoreCompileInputs.cache
+D:\DEIN\DEIN\DEIN\Wireframing\VetClinic\obj\Debug\Window2.g.cs
+D:\DEIN\DEIN\DEIN\Wireframing\VetClinic\obj\Debug\Window2.baml
+D:\DEIN\DEIN\DEIN\Wireframing\VetClinic\obj\Debug\fotos\Window1.g.cs
+D:\DEIN\DEIN\DEIN\Wireframing\VetClinic\obj\Debug\fotos\Window1.baml
+D:\DEIN\DEIN\DEIN\Wireframing\VetClinic\obj\Debug\Window3.g.cs
+D:\DEIN\DEIN\DEIN\Wireframing\VetClinic\obj\Debug\Window4.g.cs
+D:\DEIN\DEIN\DEIN\Wireframing\VetClinic\obj\Debug\Window3.baml
+D:\DEIN\DEIN\DEIN\Wireframing\VetClinic\obj\Debug\Window4.baml
