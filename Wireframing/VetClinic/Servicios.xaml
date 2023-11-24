@@ -85,11 +85,15 @@
                     <RowDefinition Height="Auto"/>
                 </Grid.RowDefinitions>
 
-                <!-- Aquí colocas los elementos del menú -->
+                <!-- Menú -->
                 <Button Style="{StaticResource BotonMenu}" Content="Home" HorizontalAlignment="Left" Grid.Row="0" Click="MenuItem_Click"/>
                 <Button Style="{StaticResource BotonMenu}" Content="Instalaciones" HorizontalAlignment="Left" Grid.Row="1" Click="MenuItem_Click"/>
-                <Button Style="{StaticResource BotonMenu}" Content="Log In" HorizontalAlignment="Left" Grid.Row="2" Click="MenuItem_Click"/>
                 <Button Style="{StaticResource BotonMenu}" Content="Adopción" HorizontalAlignment="Left" Grid.Row="3" Click="MenuItem_Click"/>
+                <Button Style="{StaticResource BotonMenu}" Content="Cita" HorizontalAlignment="Left" Grid.Row="3" Click="MenuItem_Click"/>
+                <Button Style="{StaticResource BotonMenu}" Content="Donaciones" HorizontalAlignment="Left" Grid.Row="3" Click="MenuItem_Click"/>
+                <Button Style="{StaticResource BotonMenu}" Content="Sobre nosotros" HorizontalAlignment="Left" Grid.Row="3" Click="MenuItem_Click"/>
+                <Button Style="{StaticResource BotonMenu}" Content="Trabaja con nosotros" HorizontalAlignment="Left" Grid.Row="3" Click="MenuItem_Click"/>
+                <Button Style="{StaticResource BotonMenu}" Content="Log In" HorizontalAlignment="Left" Grid.Row="2" Click="MenuItem_Click"/>
             </Grid>
         </Popup>
     </Grid>

@@ -71,6 +71,10 @@ namespace VetClinic
             {
                 nuevaVentana = new Servicios();
             }
+            else if (buttonText == "Donaciones")
+            {
+                nuevaVentana = new Donaciones();
+            }
             else if (buttonText == "Mi perfil")
             {
                 nuevaVentana = new Perfil();

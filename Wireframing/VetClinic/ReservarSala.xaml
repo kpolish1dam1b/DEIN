@@ -6,7 +6,49 @@
         xmlns:local="clr-namespace:VetClinic"
         mc:Ignorable="d"
         Title="ReservarSala" Height="450" Width="800">
+
+    <Window.Resources>
+        <Style x:Key="BotonMenu" TargetType="Button">
+            <Setter Property="Background" Value="White"/>
+            <Setter Property="BorderThickness" Value="0"/>
+            <Setter Property="Width" Value="150"/>
+            <Setter Property="Height" Value="50"/>
+        </Style>
+    </Window.Resources>
     <Grid>
-        
+        <Grid.RowDefinitions>
+            <RowDefinition Height="40"/>
+            <RowDefinition Height="auto"/>
+        </Grid.RowDefinitions>
+
+        <!--Barra de navegación-->
+        <Grid Grid.Row="0" Background="#003459" Height="50" Grid.ColumnSpan="2">
+            <!-- Icono del menú desplegable a la izquierda -->
+            <Button Click="MenuButton_Click" Content="☰" FontSize="18" VerticalAlignment="Center" HorizontalAlignment="Left" Margin="10, 0, 0, 10" Foreground="White" Background="#003459" BorderThickness="0"/>
+
+            <!-- Nombre de la aplicación a la derecha -->
+            <TextBlock Text="Vet Clinic" FontSize="18" Foreground="White" VerticalAlignment="Center" HorizontalAlignment="Right" Margin="0, 0, 20, 10"/>
+        </Grid>
+
+        <Popup x:Name="menuPopup" Placement="Relative" HorizontalOffset="150" VerticalOffset="40" IsOpen="False">
+            <Grid Background="White" Width="150" Height="380">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                </Grid.RowDefinitions>
+
+                <!-- Menú -->
+                <Button Style="{StaticResource BotonMenu}" Content="Home" HorizontalAlignment="Left" Grid.Row="0" Click="MenuItem_Click"/>
+                <Button Style="{StaticResource BotonMenu}" Content="Instalaciones" HorizontalAlignment="Left" Grid.Row="1" Click="MenuItem_Click"/>
+                <Button Style="{StaticResource BotonMenu}" Content="Adopción" HorizontalAlignment="Left" Grid.Row="3" Click="MenuItem_Click"/>
+                <Button Style="{StaticResource BotonMenu}" Content="Cita" HorizontalAlignment="Left" Grid.Row="3" Click="MenuItem_Click"/>
+                <Button Style="{StaticResource BotonMenu}" Content="Donaciones" HorizontalAlignment="Left" Grid.Row="3" Click="MenuItem_Click"/>
+                <Button Style="{StaticResource BotonMenu}" Content="Sobre nosotros" HorizontalAlignment="Left" Grid.Row="3" Click="MenuItem_Click"/>
+                <Button Style="{StaticResource BotonMenu}" Content="Trabaja con nosotros" HorizontalAlignment="Left" Grid.Row="3" Click="MenuItem_Click"/>
+                <Button Style="{StaticResource BotonMenu}" Content="Log In" HorizontalAlignment="Left" Grid.Row="2" Click="MenuItem_Click"/>
+            </Grid>
+        </Popup>
     </Grid>
 </Window>
